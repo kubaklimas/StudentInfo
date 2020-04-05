@@ -8,7 +8,7 @@ Funkcjonalności:
 
 Jeśli wymyślę jakąś dodatkową funkcjonalność to chętnie dodam ją do zamierzeń projektu.
 
-#Raport 05.04.2020
+# Raport 05.04.2020
 Zapoznawanie się ze środowiskiem Android Studio oraz składnią jezyka Java. 
 Plany na kolejne tygodnie
 * Panel logowania
