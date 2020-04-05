@@ -7,3 +7,9 @@ Funkcjonalności:
 * dodakowe informacje o przedmiocie np. ile jest nieobecności, czy zajęcia odbywają się zdalnie, czy listy zadań sprawdzane są na zajęciach.
 
 Jeśli wymyślę jakąś dodatkową funkcjonalność to chętnie dodam ją do zamierzeń projektu.
+
+#Raport 05.04.2020
+Zapoznawanie się ze środowiskiem Android Studio oraz składnią jezyka Java. 
+Plany na kolejne tygodnie
+* Panel logowania
+* Próba polączenia z bazą danych 
