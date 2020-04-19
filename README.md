@@ -13,3 +13,10 @@ Zapoznawanie się ze środowiskiem Android Studio oraz składnią jezyka Java.
 Plany na kolejne tygodnie
 * Panel logowania
 * Próba polączenia z bazą danych 
+
+# Raport 19.04.2020
+Stworzenie lokalnej bazy danych, próby łączenia się z nią, stworzenie zarysu panelu rejestracji oraz zapoznawanie się w dalszym ciągu z możliwościami środowiska android studio. 
+Plany na kolejne tygodnie
+* Dopracowanie panelu rejetracji pod względem wizualnym ( rozmieszcznie przycisków i pól tekstowych, kropkowanie haseł)
+* Wrzucenie bazy danych na "localhost" 
+* Dopracowanie bazy danych i dodanie kolejnych tabel 
