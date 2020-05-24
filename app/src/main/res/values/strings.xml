@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StudInfo</string>
+    <string name="NumerIndeksu">Numer Indeksu</string>
+    <string name="pass1">Password</string>
+    <string name="pass2">RePassword</string>
+    <string name="regbtnstring">Rejestruj</string>
+    <string name="logbtnstring">Mam już konto zaloguj mnie!</string>
+    <string name="log">Login</string>
+    <string name="pass">Haslo</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="back">Rejestracja</string>
+</resources>
