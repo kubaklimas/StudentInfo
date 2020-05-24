@@ -20,3 +20,10 @@ Plany na kolejne tygodnie
 * Dopracowanie panelu rejetracji pod względem wizualnym ( rozmieszcznie przycisków i pól tekstowych, kropkowanie haseł)
 * Wrzucenie bazy danych na "localhost" 
 * Dopracowanie bazy danych i dodanie kolejnych tabel 
+
+# Raport 24.05.2020
+Dopracowany system rejestracji. Połączono z bazą danych, dane dodają się do lokalnej bazy danych. Dopracowanie przechodzenia między ekranami. 
+Plany na kolejne tygodnie
+* Stworzenie panelu użytkownika
+* Stworzenie ekranu po zalogowaniu 
+* Dodanie nowej tabeli przechowującej oceny i przedmioty na które zapisał się student 
