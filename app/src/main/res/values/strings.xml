@@ -9,4 +9,5 @@
     <string name="pass">Haslo</string>
     <string name="zaloguj">Zaloguj</string>
     <string name="back">Rejestracja</string>
+    <string name="hello">Witaj!</string>
 </resources>

@@ -38,13 +38,28 @@ public class LoginActivity extends AppCompatActivity {
         btn_log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginActivity.this,"Zadziała już wkrótce!",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(LoginActivity.this,"Zadziała już wkrótce!",Toast.LENGTH_SHORT).show();
+
+                DataBaseHelper dataBaseHelper = new DataBaseHelper(LoginActivity.this);
+                boolean success = dataBaseHelper.login(edlog.getText().toString(),edpass.getText().toString());
+                Toast.makeText(LoginActivity.this,"Success=" + success,Toast.LENGTH_SHORT).show();
+                if(success==true){
+                    openProfile();
+                }
             }
         });
 
     }
     public void openRegister(){
         Intent intent = new Intent(this,MainActivity.class);
+
         startActivity(intent);
     }
+
+    public void openProfile(){
+        Intent intent = new Intent(this,ProfileActivity.class);
+        intent.putExtra("loginfo",edlog.getText().toString());
+        startActivity(intent);
+    }
+
 }

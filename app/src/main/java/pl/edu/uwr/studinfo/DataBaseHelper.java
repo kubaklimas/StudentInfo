@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -48,6 +49,25 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     }
 
+    public boolean login(String username, String password){
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor;
+
+        try{
+            cursor = db.rawQuery("SELECT password1 FROM users WHERE login = ?", new String[]{username});
+        }
+        catch(Exception e) {
+            return false;
+        }
+
+        if(cursor.moveToFirst()){
+
+            return cursor.getString(cursor.getColumnIndex("password1")).equals(password);
+        }
+
+        return false;
+    }
 
 
 }
